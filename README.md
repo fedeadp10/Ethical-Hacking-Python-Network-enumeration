@@ -10,20 +10,3 @@ This project provides a simple Python script for network enumeration and port sc
 - **Cross-Platform**: Works on both Windows and Linux/Mac by adjusting the `ping` command automatically.
 
 ## Usage
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/network-enum-pentest.git
-   cd network-enum-pentest
-2. Run the script
-  python scan_network.py
-3. Enter the base IP (eg. 192.168.0.1)
-   Enter the base IP (e.g., 192.168.1): 192.168.1
-4. The script will identify live hosts and scan the common ports:
-  Ports: 22 (SSH), 80 (HTTP), 443 (HTTPS), 445 (SMB), 3389 (RDP).
-# Example output
-Scanning network: 192.168.1.0/24
-192.168.1.5 is live!
-Open ports on 192.168.1.5: [22, 80]
-192.168.1.10 is live!
-Open ports on 192.168.1.10: []
